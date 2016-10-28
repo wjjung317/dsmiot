@@ -52,7 +52,11 @@ database: <YOUR DATABASE>
 password: <YOUR PASSOWRD>
 ```
 2. Ensure your local machine can talk to the environment where the data resides in (ex: you may need to connect to a VPN if your data resides on a cluster behind a firewall)
-3. Run the following from the root directory
+3. Install Flask-Assets, which is a dependency for the App
+```
+easy_install Flask-Assets
+```
+4. Run the following from the root directory
 ```
 ./deploy
 ```
